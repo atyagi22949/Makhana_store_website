@@ -78,31 +78,11 @@ if (isset($_POST['add_to_cart'])) {
                             <form method="POST">
                                 <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
                                 <button type="submit"
-                                    name="add_to_cart"
-                                    style="
-            width: 100%; 
-            background-color: #ffc107; 
-            color: #1a1a1a; 
-            border: none; 
-            padding: 14px 20px; 
-            border-radius: 12px; 
-            cursor: pointer; 
-            font-family: 'Poppins', 'Fredoka One', sans-serif; 
-            font-size: 18px; 
-            font-weight: 800; 
-            text-transform: uppercase; 
-            letter-spacing: 1px; 
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            gap: 12px; 
-            box-shadow: 0 5px 15px rgba(255, 193, 7, 0.3); 
-            transition: 0.3s ease;
-        "
-                                    onmouseover="this.style.backgroundColor='#000'; this.style.color='#ffc107'; this.style.transform='translateY(-3px)';"
-                                    onmouseout="this.style.backgroundColor='#ffc107'; this.style.color='#1a1a1a'; this.style.transform='translateY(0)';">
-                                    <i class="fas fa-shopping-basket"></i> ADD TO CART
-                                </button>
+                                        name="add_to_cart"
+                                        style=" width: 100%;  background-color: #ffc107; color: #1a1a1a; border: none; padding: 14px 20px; border-radius: 12px; cursor: pointer;  font-family: 'Poppins', 'Fredoka One', sans-serif;  font-size: 18px; font-weight: 800;  text-transform: uppercase; letter-spacing: 1px;  display: flex;  align-items: center;  justify-content: center;  gap: 12px; box-shadow: 0 5px 15px rgba(255, 193, 7, 0.3); transition: 0.3s ease;"
+                                        onmouseover="this.style.backgroundColor='#000'; this.style.color='#ffc107'; this.style.transform='translateY(-3px)';"
+                                        onmouseout="this.style.backgroundColor='#ffc107'; this.style.color='#1a1a1a'; this.style.transform='translateY(0)';"><i class="fas fa-shopping-basket"></i> ADD TO CART
+                                    </button>
                             </form>
                         </div>
                     </div>
